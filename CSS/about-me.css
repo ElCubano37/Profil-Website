@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  background-image: url('/Img/hintergrund-3d-3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#back-video {
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.linkedinbut {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 2%;
+}
+
+h1 {
+  margin-left: 3%;
+  margin-top: 5vw;
+}
+
+p {
+  margin-left: 3%;
+  margin-right: 2%;
+}
+
+.kompetenzen-title{
+  font-size: 2vw;
+}
+
+.linkedin {
+  margin-left: 3%;
+}
+
+button {
+  margin-left: 3%;
+}
+
+.container-about-me {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  text-align: center;
+  margin: auto;
+}
+
+.content-large-kompetenzen {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 40vw;
+}
+
+.content-linkedin {
+  width: 40vw;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 0;
+}
+
+img {
+  border-radius: 50%;
+  margin-left: 2%;
+}
+
+#bubble7 {
+  margin-left: 30%;
+}
+
+h2 {
+  font-size: 1vw;
+}
+
+#linkedin-title {
+  text-align: center;
+}
+
+.linie-zwischen-text{
+  border-top: 0.3vw solid #ffffff;
+    height: 0px;
+    width: 35vw;
+    margin-top: 1vw;
+    margin-left: 2.5vw;
+}
+
+.btn {
+  width: 130px;
+  height: 40px;
+  font-size: 1.1em;
+  cursor: pointer;
+  background-color: #171717;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all .4s;
+ }
+ 
+ .btn:hover {
+  border-radius: 5px;
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px #f85959,
+   0 15px 0 -4px #39a2db,
+   0 16px 10px -3px #39a2db;
+ }
+ 
+ .btn:active {
+  transition: all 0.2s;
+  transform: translateY(-5px);
+  box-shadow: 0 2px 0 -2px #f85959,
+   0 8px 0 -4px #39a2db,
+   0 12px 10px -3px #39a2db;
+ }
+
+ a{
+  text-decoration: none;
+  font-size: 1vw;
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+ }

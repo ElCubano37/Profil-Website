@@ -1,0 +1,94 @@
+#ich,
+#schule,
+#projekte {
+  text-align: center;
+}
+
+.round-picture {
+  width: 30vw;
+  height: 30vw;
+  box-shadow: 2px 2px 7px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 5vw;
+}
+
+div #projekte,
+#schule,
+#ich {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 600px;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+  flex-direction: row;
+  box-shadow: 2px 2px 7px;
+}
+
+#container-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+body {
+  background-image: url('/Img/hintergrund-1.svg');
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+p {
+  text-align: center;
+  color: #fff;
+}
+
+.name-title {
+  text-align: center;
+  color: rgb(0, 255, 255);
+}
+
+#ich {
+  text-align: center;
+}
+
+#container-home a:hover {
+  color: orange;
+}
+
+.btn {
+  width: 130px;
+  height: 40px;
+  font-size: 1.1em;
+  cursor: pointer;
+  background-color: #171717;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all .4s;
+ }
+ 
+ .btn:hover {
+  border-radius: 5px;
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px #f85959,
+   0 15px 0 -4px #39a2db,
+   0 16px 10px -3px #39a2db;
+ }
+ 
+ .btn:active {
+  transition: all 0.2s;
+  transform: translateY(-5px);
+  box-shadow: 0 2px 0 -2px #f85959,
+   0 8px 0 -4px #39a2db,
+   0 12px 10px -3px #39a2db;
+ }
+
+ a{
+  text-decoration: none;
+  font-size: 1vw;
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+ }
